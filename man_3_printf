@@ -1,3 +1,15 @@
+./" This is _printf manpage
+
+.TH man 3 "29 March 2023" "1.0" "_printf man page"
+
+.SH NAME
+
+.B _printf
+- format and data.
+
+.SH SYNOPSIS
+_printf FORMAT [ARGUMENT]...
+
 .SH DESCRIPTION
 .B _printf()
 Prints to standard output the
@@ -32,3 +44,20 @@ prints the reversed string
 .IP %R
 prints the Rot13'ed string
 .IP %p
+
+.SH SEE ALSO
+
+.I printf(1), printf(3).
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+Camilo Next & Andrés R.
+
+.SH COPYRIGHT
+Copyright © 2022 Holberton School B.
+
+Copyright © SS64.com 1999-2020.
+
+Copyright Â© 2010 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
