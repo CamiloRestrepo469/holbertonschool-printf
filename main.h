@@ -19,7 +19,7 @@ char *rm;
 int (*f)(va_list);
 } changing_t;
 
-int _putcharf(char c);
+int _putchar(char c);
 int parser(const char *format, changing_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
 int print_char(va_list);

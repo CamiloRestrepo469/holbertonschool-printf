@@ -21,7 +21,7 @@ return (write(1, &c, 1));
 */
 int print_char(va_list list)
 {
-_putcharf(va_arg(list, int));
+_putchar(va_arg(list, int));
 return (1);
 }
 
@@ -38,7 +38,7 @@ str = va_arg(list, char *);
 if (str == NULL)
 str = "(null)";
 for (i = 0; str[i] != '\0'; i++)
-_putcharf(str[i]);
+_putchar(str[i]);
 return (i);
 }
 
@@ -49,7 +49,7 @@ return (i);
 */
 int print_percent(__attribute__((unused))va_list list)
 {
-_putcharf('%');
+_putchar('%');
 return (1);
 }
 
@@ -85,8 +85,8 @@ if (f_list[j].rm == NULL && format[i + 1] != ' ')
 {
 if (format[i + 1] != '\0')
 {
-_putcharf(format[i]);
-_putcharf(format[i + 1]);
+_putchar(format[i]);
+_putchar(format[i + 1]);
 printed_chars = printed_chars + 2;
 }
 else
@@ -96,7 +96,7 @@ i = i + 1; /*Updating i to skip format symbols*/
 }
 else
 {
-_putcharf(format[i]); /*call the write function*/
+_putchar(format[i]); /*call the write function*/
 printed_chars++;
 }
 }

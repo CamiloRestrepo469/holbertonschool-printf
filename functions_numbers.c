@@ -17,7 +17,7 @@ div = 1;
 length = 0;
 if (n < 0)
 {
-length += _putcharf('-');
+length += _putchar('-');
 num = n * -1;
 }
 else
@@ -30,7 +30,7 @@ div *= 10;
 }
 for (; div != 0;)
 {
-length += _putcharf('0' + num / div);
+length += _putchar('0' + num / div);
 num %= div;
 div /= 10;
 }
