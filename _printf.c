@@ -21,6 +21,7 @@ changing_t f_list[] = {
 {"%", print_percent},
 {"d", print_decimal_integer},
 {"i", print_decimal_integer},
+{"b", print_binary},
 {NULL, NULL}
 
 };
