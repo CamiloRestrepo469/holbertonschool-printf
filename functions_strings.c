@@ -14,6 +14,20 @@ return (1);
 }
 
 /**
+* _strlen - Calculate the length of a string
+* @str: String
+*
+* Return: Length
+**/
+int _strlen(const char *str)
+{
+int i;
+for (i = 0; str[i] != 0; i++)
+;
+return (i);
+}
+
+/**
 * print_string - Prints a string
 * @list: list of arguments
 * Return: Will return the amount of characters printed.
