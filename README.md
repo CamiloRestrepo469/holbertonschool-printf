@@ -26,6 +26,11 @@ Format tags implemented in _printf
 | c             | characters                            |
 | s             | string of characters                  |
 | d or i        | int to signed decimal                 |
+| o             | octal					|
+| x		| hexadecimal lowercase			|
+| u		| unsigned    				|
+| r		| reversal string			|
+| R		| ROT13	   				|
 
 ## How to Use
 There are two ways to use the _printf function in your code.
