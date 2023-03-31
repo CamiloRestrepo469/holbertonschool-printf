@@ -28,7 +28,7 @@ Format tags implemented in _printf
 | d or i        | int to signed decimal                 |
 | o             | octal					|
 | x		| hexadecimal lowercase			|
-| u		| unsigned    				|
+| b		| unsigned    				|
 | r		| reversal string			|
 | R		| ROT13	   				|
 
