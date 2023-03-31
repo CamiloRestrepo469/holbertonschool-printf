@@ -11,7 +11,6 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
-
 /**
 * parser - Receives the main string and all the necessary parameters to
 * print a formated string.
@@ -87,13 +86,11 @@ if (sign < 0)
 }
 return (ptr);
 }
-
 /**
 * print_BOH - print parameter ASCCI
 * @str: parameter
-*
-* Return 0.
-*
+* Descrition: print
+* Return: Always 0
 */
 
 int print_BOH(char *str)

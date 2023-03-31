@@ -14,7 +14,6 @@ p_buff = inttoascii(va_arg(list, unsigned int), 10);
 size = print_BOH((p_buff != NULL) ? p_buff : "NULL");
 return (size);
 }
-
 /**
 * print_octal - Print a unsigned octal
 * @list: Number to print
@@ -29,7 +28,6 @@ p_buff = inttoascii(va_arg(list, unsigned int), 8);
 size = print_BOH((p_buff != NULL) ? p_buff : "NULL");
 return (size);
 }
-
 /**
 * print_hexadecimal_low - Print a number in hexadecimal format
 * @list: Number to print
@@ -44,13 +42,11 @@ p_buff = inttoascii(va_arg(list, unsigned int), 16);
 size = print_BOH((p_buff != NULL) ? p_buff : "NULL");
 return (size);
 }
-
 /**
 * rot13 - Encodes a string using rot13.
 * @s: String to enconde
 * Return: String encode
 */
-
 int rot13(char *s)
 {
 int i, j;
@@ -72,7 +68,6 @@ _putchar(s[i]);
 }
 return (i);
 }
-
 /**
 * print_rot - Prints the rot13'ed string
 * @list: String to encoded
